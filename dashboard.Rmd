@@ -42,3 +42,4 @@ Column {data-width=350}
 
 ```
 
+Here's back to the [index](index.html) page.
