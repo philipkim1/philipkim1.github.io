@@ -14,3 +14,10 @@ My name is Philip Kim and I am a first year graduate student studying Biostatist
 
 <img src="" style="width:75%">
 
+## Here is my Resume
+
+Link to my [resume](resume.html) page.
+
+## Here is my Dashboard
+
+Link to my [dashboard](dashboard.html).
