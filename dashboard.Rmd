@@ -15,7 +15,9 @@ library(plotly)
 ```
 
 ```{r}
+data(rest_inspec)
 
+rest_inspec
 ```
 
 Column {data-width=650}
