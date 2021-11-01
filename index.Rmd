@@ -12,7 +12,7 @@ My name is Philip Kim and I am a first year graduate student studying Biostatist
 
 ## Here's Loki
 
-<img src="" style="width:75%">
+<img src="images/loki.jpg" style="width:75%">
 
 ## Here is my Resume
 
