@@ -6,7 +6,5 @@ output:
     toc_float: true
 ---
 
-# Here is my resume
-
-<embed src="https://philipkim1.github.io/PhilipKim_CV.pdf" type="application/pdf" width="600px" height="500px" />
+<embed src="https://philipkim1.github.io/PhilipKim_CV.pdf" type="application/pdf" />
 
