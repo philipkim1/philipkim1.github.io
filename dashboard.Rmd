@@ -15,9 +15,7 @@ library(plotly)
 ```
 
 ```{r}
-data(rest_inspec)
-
-rest_inspec
+data(instacart)
 ```
 
 Column {data-width=650}
@@ -26,7 +24,7 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-
+  
 ```
 
 Column {data-width=350}
