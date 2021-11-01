@@ -8,6 +8,5 @@ output:
 
 # Here is my resume
 
-
-Here's back to the [introduction](index.html) page.
+<embed src="https://philipkim1.github.io/PhilipKim_CV.pdf" type="application/pdf" width="600px" height="500px" />
 
