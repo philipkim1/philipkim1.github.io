@@ -16,7 +16,7 @@ My name is Philip Kim and I am a first year graduate student studying Biostatist
 
 ## Here is my Resume
 
-Link to my [resume](resume.html) page.
+Link to my [resume](https://philipkim1.github.io/PhilipKim_CV.pdf) page.
 
 ## Here is my Dashboard
 
