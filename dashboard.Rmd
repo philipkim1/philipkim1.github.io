@@ -15,7 +15,7 @@ library(plotly)
 ```
 
 ```{r}
-data(instacart)
+data(rest_inspec)
 ```
 
 Column {data-width=650}
@@ -24,7 +24,18 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-  
+rest_inspec %>% 
+  filter(boro == "MANHATTAN",
+         cuisine_description == "Korean") %>%
+  drop_na(score) %>% 
+  group_by(dba) %>% 
+  summarize(score = score) %>% 
+  mutate(dba = fct_reorder(dba, score)) %>% 
+  plot_ly(
+    x = ~ dba, y = ~ score, type = "box", colors = "viridis") %>% 
+    layout(title = "Score Distribution of Korean \nRestaurant Inspections in Manhattan", 
+     xaxis = list(title = "Korean Restaurant"), 
+     yaxis = list(title = "Score"))
 ```
 
 Column {data-width=350}
@@ -33,13 +44,38 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+rest_inspec %>% 
+  filter(boro != "Missing") %>% 
+  group_by(grade, boro) %>% 
+  summarize(n_obs = n()) %>% 
+  filter(grade %in% c("A", "B", "C")) %>% 
+  plot_ly(x = ~ grade, y = ~ n_obs, type = "bar", color = ~ boro) %>% 
+  layout(
+    title = "Restaurant Grade Distributions",
+    xaxis = list(title = "Restaurant Grade"), 
+    yaxis = list(title = "Number of Restaurants"),
+    barmode = "stack")
 ```
 
 ### Chart C
 
 ```{r}
+rest_inspec %>% 
+  filter(boro != "Missing",
+         cuisine_description == "Asian") %>% 
+  drop_na(score) %>% 
+  group_by(boro, dba) %>% 
+  summarize(score = mean(score)) %>% 
+  plot_ly(
+    x = ~ dba, y = ~ score, color = ~ boro, type = "scatter", mode = "markers", alpha = 0.7) %>% 
+  layout(title = "Asian Restaurant Inspection \nScores",
+          xaxis = list(title = "Restaurant",
+                      tickangle = 45),
+          yaxis = list(title = "Score"))
+```
+
+
+```{r}
 
 ```
 
-Here's back to the [index](index.html) page.

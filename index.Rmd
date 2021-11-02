@@ -8,16 +8,12 @@ output:
 
 # A Little Bit About Me 
 
-My name is Philip Kim and I am a first year graduate student studying Biostatistics at Columbia University. I have a cat named Loki and this is my first time living outside of California. 
+My name is Philip Kim and I am a first year graduate student studying Biostatistics at Columbia University Mailman School of Public Health. My career goals include working for the National Center for Health Statistics and the CDC. In terms of personal life, this is my first time living outside of California and I have a cat named Loki. 
 
 ## Here's Loki
 
-<img src="images/loki.jpg" style="width:75%">
+<img src="images/loki.jpg" style="width:50%" height=500px>
 
-## Here is my Resume
+## Academic/professional Experience
 
-Link to my [resume](resume.html) page.
-
-## Here is my Dashboard
-
-Link to my [dashboard](dashboard.html).
+Click [here](resume.html) to access my academic and professional experience. 
