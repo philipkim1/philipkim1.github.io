@@ -1,12 +1,12 @@
 ---
-title: "Philip's Website for P8105 Homework 4"
+title: "Philip Kim's Website"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# A Little Bit About Me 
+# Introduction 
 
 My name is Philip Kim and I am a first year graduate student studying Biostatistics at Columbia University Mailman School of Public Health. My career goals include working for the National Center for Health Statistics and the CDC. In terms of personal life, this is my first time living outside of California and I have a cat named Loki. 
 

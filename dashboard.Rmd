@@ -51,7 +51,7 @@ rest_inspec %>%
   filter(grade %in% c("A", "B", "C")) %>% 
   plot_ly(x = ~ grade, y = ~ n_obs, type = "bar", color = ~ boro) %>% 
   layout(
-    title = "Restaurant Grade Distributions",
+    title = "Restaurant Grade Distribution in New York",
     xaxis = list(title = "Restaurant Grade"), 
     yaxis = list(title = "Number of Restaurants"),
     barmode = "stack")
@@ -69,8 +69,8 @@ rest_inspec %>%
   plot_ly(
     x = ~ dba, y = ~ score, color = ~ boro, type = "scatter", mode = "markers", alpha = 0.7) %>% 
   layout(title = "Asian Restaurant Inspection \nScores",
-          xaxis = list(title = "Restaurant",
-                      tickangle = 45),
+          xaxis = list(title = "Asian Restaurants",
+                      showticklabels = FALSE),
           yaxis = list(title = "Score"))
 ```
 
